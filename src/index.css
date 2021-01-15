@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-blue: hsl(237, 18%, 59%);
+  --primary-red: hsl(345, 95%, 68%);
+
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(234, 17%, 12%);
+
+  --desaturated-blue: hsl(236, 21%, 26%);
+  --dark-blue: hsl(235, 16%, 14%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Red Hat Text", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
